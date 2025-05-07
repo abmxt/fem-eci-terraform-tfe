@@ -1,10 +1,10 @@
-terraform { 
-  cloud { 
-    
-    organization = "abautista" 
+terraform {
+  cloud {
 
-    workspaces { 
-      name = "fem-eci-tfe" 
-    } 
-  } 
+    organization = "abautista"
+
+    workspaces {
+      name = "fem-eci-tfe"
+    }
+  }
 }
